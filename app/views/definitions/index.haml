@@ -1,0 +1,10 @@
+%dl
+  - @definitions.each do |definition|
+    %dt= definition.term
+    %dd= definition.definiens
+
+%h2 New Definition
+= simple_form_for :definition do |f|
+  = f.input :term
+  = f.input :definiens
+  = f.submit

@@ -9,3 +9,6 @@ user = CreateAdminService.new.call
 puts 'CREATED ADMIN USER: ' << user.email
 # Environment variables (ENV['...']) can be set in the file config/application.yml.
 # See http://railsapps.github.io/rails-environment-variables.html
+
+Definition.create(term: 'Hello', definiens: 'A casual greeting')
+Definition.create(term: 'World', definiens: 'The ball on which we live')
