@@ -14,7 +14,7 @@ gem 'devise'
 gem 'figaro', :github=>"laserlemon/figaro"
 gem 'haml-rails'
 gem 'pg'
-gem 'simple_form'
+gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_20]
