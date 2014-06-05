@@ -6,5 +6,5 @@
 %h2 New Definition
 = simple_form_for :definition, html: {class: 'col-md-3'} do |f|
   = f.input :term
-  = f.input :definiens
+  = f.input :definiens, as: :text
   = f.button :submit
