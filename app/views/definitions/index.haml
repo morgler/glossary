@@ -4,7 +4,7 @@
     %dd= definition.definiens
 
 %h2 New Definition
-= simple_form_for :definition do |f|
+= simple_form_for :definition, html: {class: 'col-md-3'} do |f|
   = f.input :term
   = f.input :definiens
   = f.button :submit
